@@ -1,5 +1,6 @@
 # Bird-Watching-Spoof
 /the following will be copied out once the page is established with html
+// also, def doing a birds youu can WATCH funny 
 / Important, this is the standard code for CSS establishment:
 <link rel="stylesheet" href="my-css-file.css" />
 
