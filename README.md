@@ -1,5 +1,8 @@
 # Bird-Watching-Spoof
 /the following will be copied out once the page is established with html
+/ Important, this is the standard code for CSS establishment:
+<link rel="stylesheet" href="my-css-file.css" />
+
 <meta name="author" content="Caitlin Schaeffer" />
 <meta
   name="description"
