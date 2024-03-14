@@ -7,6 +7,10 @@
 <meta
   name="description"
   content="AwesomeInc class HTML and CSS coding project early." />
+  <html lang="en-US">
+  …
+</html>
+
 
 <!doctype html>
 <html lang="en-US">
