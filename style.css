@@ -60,8 +60,6 @@ header {
 body {
     font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     margin: 2em;
-    background-color: rgb(105,162,132);
-background: linear-gradient(90deg, rgba(105,162,132,1) 29%, rgba(27,72,52,0.4276304271708683) 61%);
 font: helvetica 
 }
 
@@ -94,7 +92,8 @@ flex-direction: row;
 height: 50px;
   flex: 100%;
   display: table-row;
-  <div class="ul">
+  <div>
+  class="ul">
     <a href="#" class="ul">HOME</a>
     <a href="#Best Monitors for Bird Watching:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Best Monitors for Bird Watching:</a>
     <a href="#Image Gallery:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Image Gallery:</a>
