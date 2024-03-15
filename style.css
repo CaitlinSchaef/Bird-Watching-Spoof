@@ -112,17 +112,17 @@ nav > ul {
     background-color: #A7DCA5;
   }
 /*try fixing the nav bar with this*/
-<Nav {
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#Best monitors for bird watching:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Best monitors for bird watching:</a>
+<Nav 
+{
+<div class="ul">
+display: flex;
+flex-direction: row;
+  <div class="ul">
+    <a href="#" class="ul">HOME</a>
+    <a href="#Best Monitors for Bird Watching:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Best Monitors for Bird Watching:</a>
     <a href="#Image Gallery:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Image Gallery:</a>
     <a href="#Gear:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gear:</a>
     <a href="#Bird Watching Snacks:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Bird Watching Snacks:</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
     </div>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
 </div>
