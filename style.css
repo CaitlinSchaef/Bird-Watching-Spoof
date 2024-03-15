@@ -82,11 +82,6 @@ header img {
   padding-top: 10px;
 }
 
-nav {
-  height: 50px;
-  flex: 100%;
-  display: flex;
-}
 nav > ul {
     list-style-type: none;
     margin: 0;
@@ -96,6 +91,9 @@ nav > ul {
     background-color: #333333;
     display: flex;
 flex-direction: row;
+height: 50px;
+  flex: 100%;
+  display: table-row;
   <div class="ul">
     <a href="#" class="ul">HOME</a>
     <a href="#Best Monitors for Bird Watching:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Best Monitors for Bird Watching:</a>
