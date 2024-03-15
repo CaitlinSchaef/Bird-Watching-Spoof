@@ -7,7 +7,8 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  background-color: rgb(105,162,132);
+background: linear-gradient(90deg, rgba(105,162,132,1) 29%, rgba(27,72,52,0.4276304271708683) 61%);
 }
 
 body {
@@ -19,17 +20,17 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Arial;
   color: #2a2a2a;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 8rem;
   text-align: Left;
   text-shadow: 2px 2px 10px black;
 }
