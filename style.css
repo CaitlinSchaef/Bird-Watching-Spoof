@@ -87,17 +87,17 @@ nav {
   flex: 100%;
   display: flex;
 }
-
-nav ul {
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: absolute;
     background-color: #333333;
   }
   
   li {
-    float: left;
+    float: center;
   }
   
   li a {
@@ -109,8 +109,9 @@ nav ul {
   }
   
   li a:hover {
-    background-color: #111111;
+    background-color: #A7DCA5;
   }
+/*try fixing the nav bar with this*/
 
 nav li {
   display: inline;
@@ -158,3 +159,4 @@ aside img {
 footer {
   margin-top: 8px;
 }
+
