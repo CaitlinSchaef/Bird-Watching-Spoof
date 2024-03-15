@@ -29,14 +29,38 @@
       <p>We've got good birds, sidekick birds, evil birds and birds of great power!</p>
 
       <h3>Our Favorite Easy to Watch Birds:</h3>
-        <img images/zazu.jpeg src="images/zazu.jpeg" alt="Zazu from Lion King" width="300" height="200"/>
-       <img images/Mummmble.png src="images/Mummmble.png" alt="Mumble from Happy Feet" width="200" height="300" />
-       <img images/i steal jewels.png src="images/i steal jewels.png" alt="Gunter from Adventure Time" width="200" height="300"/>
-       <img images/diablo with mal.png" src="images/diablo with mal.png"" alt="Diablo with Mal" width="250" height="375" />
-       <img images/Untitled design (1).png src="images/Untitled design (1).png" alt="Mordecai from the Regular Show" width="200" height="300"/>
-       <img images/kevinn.png src="images/kevinn.png" alt="Kevin from Up" width="200" height="300"/>
-       <img images/nigel nigel.png src="images/nigel nigel.png" alt="Nigel from Rio" width="300" height="200"/>
- 
+      <div class="display-container">
+<img class="mySlides" src="images/zazu.jpeg">
+<img class="mySlides" src="images/Mummmble.png">
+<img class="mySlides" src="images/i steal jewels.png" >
+<img class="mySlides" src="images/diablo with mal.png">
+<img class="mySlides" src="images/Untitled design (1).png">
+<img class="mySlides" src="images/kevinn.png">
+<img class="mySlides" src="images/nigel nigel.png">
+
+<button class="button-black-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="button-black-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
       
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S6DOxuucAEk?si=kJEBsuEMlqcElnyA&amp;start=28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
