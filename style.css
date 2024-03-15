@@ -92,16 +92,6 @@ flex-direction: row;
 height: 50px;
   flex: 100%;
   display: table-row;
-  <div>
-  class="ul">
-    <a href="#" class="ul">HOME</a>
-    <a href="#Best Monitors for Bird Watching:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Best Monitors for Bird Watching:</a>
-    <a href="#Image Gallery:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Image Gallery:</a>
-    <a href="#Gear:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gear:</a>
-    <a href="#Bird Watching Snacks:" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Bird Watching Snacks:</a>
-    </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-</div>
   }
 
 /* || main layout */
