@@ -2,7 +2,7 @@
 
 html, body {
   margin: 0;
-  padding: 1%;
+  padding: 0;
 }
 
 html {
@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
 }
 
-/* || typography */
+/* || font sizes and colors */
 
 h1, h2, h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
