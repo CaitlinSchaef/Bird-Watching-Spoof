@@ -2,6 +2,6 @@ body {
     font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     margin: 2em;
     background-color: rgb(105,162,132);
-background-color: linear-gradient(90deg, rgba(105,162,132,1) 29%, rgba(27,72,52,1) 61%);
+background: linear-gradient(90deg, rgba(105,162,132,1) 29%, rgba(27,72,52,0.4276304271708683) 61%);
 font: helvetica 
 }
