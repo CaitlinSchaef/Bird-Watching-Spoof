@@ -50,7 +50,13 @@ p, li {
   line-height: 1.5;
 }
 
-/* || header layout */
+p {
+  margin-bottom: 1em;
+}
+
+div {
+  margin-bottom: 2em;
+}
 
 header {
   margin-bottom: 10px;
@@ -86,7 +92,6 @@ justify-content: space-between;
 }
 
 
-/* || main layout */
 
 main {
   display: flex;
