@@ -7,8 +7,8 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: rgb(105,162,132);
-background: linear-gradient(90deg, rgba(105,162,132,1) 29%, rgba(27,72,52,0.4276304271708683) 61%);
+  background: rgb(74,140,105);
+background: linear-gradient(322deg, rgba(74,140,105,1) 25%, rgba(27,72,52,0.4276304271708683) 61%);
 }
 
 body {
@@ -64,8 +64,8 @@ font: helvetica
 }
 
 main, header, nav, article, aside, footer, section {
-background-color: rgb(105,162,132);
-background: linear-gradient(90deg, rgba(105,162,132,1) 29%, rgba(27,72,52,0.4276304271708683) 61%);
+  background: rgb(74,140,105);
+  background: linear-gradient(322deg, rgba(74,140,105,1) 25%, rgba(27,72,52,0.4276304271708683) 61%);
   padding: 0;
 }
 
