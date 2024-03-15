@@ -54,7 +54,7 @@ p, li {
 
 header {
   margin-bottom: 10px;
-  display: flex;
+  display: absolute;
   flex-flow: row wrap;
 }
 body {
@@ -68,7 +68,7 @@ font: helvetica
 main, header, nav, article, aside, footer, section {
 background-color: rgb(105,162,132);
 background: linear-gradient(90deg, rgba(105,162,132,1) 29%, rgba(27,72,52,0.4276304271708683) 61%);
-  padding: 1%;
+  padding: 0;
 }
 
 h1 {
@@ -79,7 +79,7 @@ h1 {
 header img {
   display: block;
   height: 60px;
-  padding-top: 20.15px;
+  padding-top: 10px;
 }
 
 nav {
@@ -94,28 +94,7 @@ nav > ul {
     overflow: hidden;
     position: absolute;
     background-color: #333333;
-  }
-  
-  li {
-    float: center;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #A7DCA5;
-  }
-/*try fixing the nav bar with this*/
-<Nav 
-{
-<div class="ul">
-display: flex;
+    display: flex;
 flex-direction: row;
   <div class="ul">
     <a href="#" class="ul">HOME</a>
@@ -126,8 +105,8 @@ flex-direction: row;
     </div>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
 </div>
-}
-/nav>
+  }
+
 /* || main layout */
 
 main {
