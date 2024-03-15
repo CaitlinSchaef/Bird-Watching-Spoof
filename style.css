@@ -79,20 +79,9 @@ header img {
   height: 60px;
   padding-top: 10px;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: absolute;
-    background-color: #333333;
-    display: flex;
-flex-direction: row;
-height: 50px;
-  flex: 100%;
-  display: table-row;
-  }
+.box {
+  display: flex;
+}
 
 /* || main layout */
 
